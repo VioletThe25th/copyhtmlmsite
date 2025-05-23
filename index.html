@@ -1,0 +1,249 @@
+<head>
+  <meta charset="UTF-8" />
+  <title>Guépard – Page HTML</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<!-- Partie du haut -->
+<header class="flex justify-between items-center p-4 border-b bg-white">
+  <div class="flex items-center gap-2 max-w-6xl">
+    <button class="text-xl">
+      <i class="fas fa-bars"></i>
+    </button>
+    <img src="assets/wikipedia_logo.png" alt="Logo Wikipédia" class="h-12"/>
+    <div>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Wikipedia_wordmark.svg/174px-Wikipedia_wordmark.svg.png" alt="Ecriture Logo Wikipédia" class="h-6" />
+      <span class="text-sm text-gray-600 ml-1">L’encyclopédie libre</span>
+    </div>
+  </div>
+
+  <form class="flex border rounded overflow-hidden w-full max-w-md mx-4">
+    <input type="text" placeholder="Rechercher sur Wikipédia" class="flex-grow px-2 py-1 outline-none text-sm text-gray-800" />
+    <button type="submit"
+            class="px-3 py-1 bg-gray-100 text-sm font-bold hover:bg-gray-200">Rechercher</button>
+  </form>
+
+  <div class="hidden md:flex items-center space-x-3 text-sm text-blue-600">
+    <a href="#" class="hover:underline">Faire un don</a>
+    <a href="#" class="hover:underline">Créer un compte</a>
+    <a href="#" class="hover:underline">Se connecter</a>
+    <i class="fas fa-ellipsis-h text-gray-700"></i>
+  </div>
+</header>
+
+<body class="font-sans bg-white text-gray-900">
+  <div class="max-w-6xl mx-auto px-4">
+    <header class="border-b p-4">
+      <h1 class="text-3xl font-bold">Guépard</h1>
+      <p class="italic text-gray-600">Acinonyx jubatus</p>
+    </header>
+
+    <main class="flex flex-col md:flex-row p-4 gap-8">
+      <article class="md:w-2/3">
+        <section>
+          <p class="mb-4"><strong>Le guépard (<em>Acinonyx jubatus</em>)</strong> est un grand mammifère carnassier de la famille des félidés 
+            vivant en Afrique et en Asie de l'Ouest. Le guépard a une allure svelte et fine, avec de longues pattes élancées 
+            (aux griffes semi-rétractiles ou non-rétractiles selon les sources), et une face au museau court marquée par deux 
+            traces noires partant des yeux. Son pelage est entièrement tacheté de noir sur un fond fauve à beige très clair ; 
+            les petits sont pourvus d'une courte crinière qui disparaît à l'âge adulte. Il est considéré comme l'animal terrestre 
+            le plus rapide au monde, sa vitesse à la course pouvant atteindre 110 km/h.
+          </p>
+          <p>Classé vulnérable par l'Union internationale pour la conservation de la nature, le guépard fait actuellement l'objet 
+            de diverses tentatives de protection, incluant des procédés de clonage. L'espèce est divisée en cinq sous-espèces présentant 
+            des différences mineures de morphologie ou de comportement. Parmi celles-ci, le guépard asiatique, le guépard du Sahara 
+            et le guépard d'Afrique du Nord-Est sont classées en danger critique d'extinction. La population de guépards est passée 
+            de 100 000 individus au début du XXe siècle à 7 100 en 2019.
+          </p>
+        </section>
+
+        <section class="mt-6">
+          <h2 class="text-2xl font-semibold border-b pb-1">Description</h2>
+          <article class="mt-4">
+            <h3 class="text-xl font-semibold mb-2 border-b pb-1">Morphologie</h3>
+            <p class="mb-4">Le corps du guépard, musclé, est très aérodynamique et ressemble à celui d'un lévrier : svelte, presque maigre, 
+              avec de longues pattes fines, contrastant fortement avec la plupart des autres grands félins. Sa poitrine est profonde 
+              et sa taille étroite. Ses os sont légers et sa colonne vertébrale, extrêmement flexible, lui permet de projeter ses 
+              membres postérieurs très loin et, ainsi, de courir très vite. 
+            </p>
+            <p class="mb-4">
+              Sa queue agit comme un balancier et un gouvernail lorsqu'il prend des virages brusques en poursuivant sa proie. 
+              Les griffes du guépard ne sont pas totalement rétractiles ni crochues, contrairement à celles des autres félins 
+              (d'où le nom latin du genre « acinonyx », cf. infra). Cette particularité lui permet d'avoir une très bonne adhérence au sol pour 
+              courir très vite, mais a aussi pour effet qu'elles s'usent rapidement, ce qui l'empêche de grimper aux arbres pour y cacher ses proies par exemple, 
+              ou de s'en servir pour se battre. Seuls les petits peuvent grimper aux arbres, et ils n'y semblent pas très habiles.
+            </p>
+            <p class="mb-4">
+              Un gros cœur et des poumons développés favorisent les échanges gazeux. Le guépard a de larges fosses nasales, lui assurant une bonne oxygénation pendant sa course.
+            </p>
+            <p class="mb-4">
+              Il a une petite tête et un museau court, des yeux haut placés et bien déterminés, soulignés par une ligne noire ressemblant 
+              à une larme qui chemine du canthus interne des paupières jusqu'à la commissure des lèvres, et qui permet de différencier à coup 
+              sûr le guépard des autres grands félins tachetés, tels que le léopard. Ces traînées amélioreraient sa vision en minimisant les reflets de la lumière du soleil.
+            </p>
+            <p class="mb-4">
+              Ses oreilles sont petites et rondes. Comparativement aux autres grands félins, son crâne est de plus petite dimension, et la structure de sa mâchoire supérieure 
+              permet un bon passage de l'air, grâce aux canines peu développées, mais réduit la puissance de la morsure. Le faible développement de ses crocs et de leurs racines 
+              favorise les voies respiratoires : c'est un atout indéniable pour la course, mais un handicap pour le combat.
+            </p>
+            <h3 class="text-xl font-semibold mb-2 border-b pb-1">Sous-espèces</h3>
+            <!-- On fait comme si c'était des liens -->
+            <nav class="mt-8" aria-label="Sous-espèces du guépard">
+              <p class="mb-2">Cinq sous-espèces de guépards sont distinguées :</p>
+              <ul class="list-disc list-inside space-y-1 text-sm text-gray-800">
+                <li>
+                  <span class="text-blue-600 hover:underline cursor-pointer">Guépard d'Afrique australe</span>,
+                  <em>Acinonyx jubatus jubatus</em> (Schreber, 1775) :
+                  dans l’essentiel du sud de
+                  <span class="text-blue-600 hover:underline cursor-pointer">l’Afrique</span> ;
+                </li>
+                <li>
+                  <span class="text-blue-600 hover:underline cursor-pointer">Guépard d'Afrique de l'Est</span>,
+                  <em>Acinonyx jubatus raineyi</em> (Edmund Heller, 1913) :
+                  <span class="text-blue-600 hover:underline cursor-pointer">Kenya</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Ouganda</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Somalie</span> ;
+                </li>
+                <li>
+                  <span class="text-blue-600 hover:underline cursor-pointer">Guépard d'Afrique du Nord-Est</span>,
+                  <em>Acinonyx jubatus soemmeringii</em> (Fitzinger, 1855) :
+                  <span class="text-blue-600 hover:underline cursor-pointer">Éthiopie</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Tchad</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Soudan</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Cameroun</span>,
+                  sud du <span class="text-blue-600 hover:underline cursor-pointer">Niger</span> ;
+                </li>
+                <li>
+                  <span class="text-blue-600 hover:underline cursor-pointer">Guépard d'Afrique du Nord-Ouest</span>
+                  ou Guépard du Sahara,
+                  <em>Acinonyx jubatus hecki</em> (Hilzheimer, 1913) :
+                  <span class="text-blue-600 hover:underline cursor-pointer">Afrique occidentale</span>,
+                  <span class="text-blue-600 hover:underline cursor-pointer">Sahara</span> ;
+                </li>
+                <li>
+                  <span class="text-blue-600 hover:underline cursor-pointer">Guépard asiatique</span>,
+                  <em>Acinonyx jubatus venaticus</em> (Griffith, 1821) :
+                  désormais limité à
+                  <span class="text-blue-600 hover:underline cursor-pointer">l’Iran</span>.
+                </li>
+              </ul>
+              <p class="mt-4 text-sm">
+                La forme <em>Acinonyx jubatus f. rex</em>,
+                <span class="text-blue-600 hover:underline cursor-pointer">le guépard royal</span>,
+                semble considérée à tort par certains anciens auteurs comme une sous-espèce supplémentaire.
+                Si certains secteurs géographiques présentent plus d'individus de ladite forme,
+                comme au <span class="text-blue-600 hover:underline cursor-pointer">Zimbabwe</span>,
+                celle-ci peut aussi apparaître « spontanément » dans une portée par le jeu de la génétique.
+              </p>
+            </nav>
+          </article>
+        </section>
+      </article>
+
+      <!-- Partie de droite -->
+      <aside class="md:w-1/3 border p-4 rounded shadow text-sm bg-white">
+        <!-- Titre scientifique -->
+        <div class="bg-red-300 text-center py-2 mb-4 rounded">
+          <h4 class="italic text-lg font-bold text-gray-800">Acinonyx jubatus</h4>
+        </div>
+
+        <!-- Image -->
+        <img src="assets/TheCheethcat.jpg" alt="Photo d’un guépard" class="w-full mb-4 rounded" />
+
+        <!-- Tableau de classification -->
+        <div>
+          <h5 class="text-center font-bold bg-orange-200 py-1 border border-gray-300 rounded-t">
+            Classification
+          </h5>
+          <table class="w-full border border-gray-300 text-sm">
+            <tbody>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Règne</td>
+                <td class="px-2 py-1">Animalia</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Sous-embr.</td>
+                <td class="px-2 py-1">Vertebrata</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Super-classe</td>
+                <td class="px-2 py-1">Tetrapoda</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Classe</td>
+                <td class="px-2 py-1">Mammalia</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Cohorte</td>
+                <td class="px-2 py-1">Placentalia</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Ordre</td>
+                <td class="px-2 py-1">Carnivora</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Sous-ordre</td>
+                <td class="px-2 py-1">Feliformia</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Famille</td>
+                <td class="px-2 py-1">Felidae</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Sous-famille</td>
+                <td class="px-2 py-1">Felinae</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Tribu</td>
+                <td class="px-2 py-1">Acinonychini</td>
+              </tr>
+              <tr class="border-t">
+                <td class="px-2 py-1 text-blue-700">Genre</td>
+                <td class="px-2 py-1 italic">Acinonyx</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </aside>
+
+
+    </main>
+  </div>
+
+
+  <!-- Pied de page -->
+  <footer class="mt-12 px-4 py-6 text-xs text-gray-700 border-t bg-white">
+    <p class="mb-2">
+      La dernière modification de cette page a été faite le
+      <time datetime="2025-05-23T17:00">23 mai 2025 à 17:00</time>,
+      soit l'heure de fin du TD.
+    </p>
+    <p class="mb-2">
+      <span class="font-medium">Droit d’auteur :</span>
+      les textes sont disponibles sous
+      <a href="#" class="text-blue-600 hover:underline">licence de moi-même,
+      d’autres conditions peuvent s’appliquer. Voyez les
+      <a href="#" class="text-blue-600 hover:underline">conditions d’utilisation</a> pour plus de détails,
+      ainsi que les <a href="#" class="text-blue-600 hover:underline">crédits graphiques</a>.
+    </p>
+    <p class="mb-4">
+      Wikipédia de Jeremy® est une marque déposée de la
+      <a href="#" class="text-blue-600 hover:underline">Jeremy Foundation, Inc.</a>, organisation de bienfaisance régie par le paragraphe
+      <a href="#" class="text-blue-600 hover:underline">404(c)(4)</a> du code fiscal de chez moi.
+    </p>
+    <div class="flex flex-wrap justify-between items-center gap-2">
+      <div class="flex flex-wrap gap-x-4 gap-y-2">
+        <a href="#" class="text-blue-600 hover:underline">Politique de confidentialité</a>
+        <a href="#" class="text-blue-600 hover:underline">À propos de Wikipédia</a>
+        <a href="#" class="text-blue-600 hover:underline">Avertissements</a>
+        <a href="#" class="text-blue-600 hover:underline">Contact</a>
+        <a href="#" class="text-blue-600 hover:underline">Code de conduite</a>
+        <a href="#" class="text-blue-600 hover:underline">Développeurs</a>
+        <a href="#" class="text-blue-600 hover:underline">Statistiques</a>
+        <a href="#" class="text-blue-600 hover:underline">Déclaration sur les témoins (cookies)</a>
+        <a href="#" class="text-blue-600 hover:underline">Version mobile</a>
+      </div>
+    </div>
+  </footer>
+
+
+</body>
